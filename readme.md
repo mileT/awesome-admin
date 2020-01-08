@@ -78,4 +78,9 @@ $ npm start
 $ npm run build
 ```
 # 效果
+1. 浏览器输入localhost:8000后会自动跳转到登录页
+![登录](https://images.gitee.com/uploads/images/2020/0108/141357_2b7b1df0_804916.png "屏幕快照 2020-01-08 上午11.53.15.png")
+
+2. 输入用户名和密码 admin/admin后,跳转到首页
+![首页](https://images.gitee.com/uploads/images/2020/0108/141459_00154a24_804916.png "屏幕快照 2020-01-08 上午11.52.54.png")
 
