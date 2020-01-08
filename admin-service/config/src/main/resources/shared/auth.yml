@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /auth
+  port: 5000
+
+jwt:
+  key:
+    password: testpassword
+    path: awesome.jks
+    alias: awesome
+
