@@ -8,6 +8,7 @@ node_modules
 /dist
 /.vscode
 build
+**/.umi
 
 # testing
 coverage
