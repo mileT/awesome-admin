@@ -7,7 +7,7 @@
 
 # admin-service
 ## 描述
-建立spring cloud常用微服务，包括配置服务、注册服务、认证服务，满足中小企业及个人基础框架开箱即用。支持采用阿里云云效服务和kubernetes容器服务实现生产级持续部署持续集成。
+建立Spring Cloud常用微服务，包括配置服务、注册服务、认证服务，满足中小企业及个人基础框架开箱即用。支持采用阿里云云效服务和kubernetes容器服务实现生产级持续部署持续集成。
 
 Spring cloud中最复杂的其实是认证服务，本项目认证服务已经支持
 1. 实现Oauth2认证生成JWT Token
@@ -15,12 +15,10 @@ Spring cloud中最复杂的其实是认证服务，本项目认证服务已经�
 3. 支持自定义认证方式，实现多种方式认证
 4. 支持直接通过API直接获取JWT Token，满足小程序、微信公众号等已经认证过需要直接获取token的场景
 
-##### 3. 启动服务
+##### 启动服务
     - 首先启动config服务和registry服务
     - 启动auth服务
-
-##### 4. 通过注册服务http://localhost:8761 即可查看启动的服务
-
+    - 通过注册服务http://localhost:8761 即可查看启动的服务
 ![注册服务](https://images.gitee.com/uploads/images/2019/1228/011228_0b1112e9_693977.png "WX20191228-010712@2x.png")
 
 
@@ -80,3 +78,4 @@ $ npm start
 $ npm run build
 ```
 # 效果
+
