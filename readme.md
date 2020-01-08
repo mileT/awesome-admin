@@ -1,10 +1,12 @@
 V1.0.0
 # 项目介绍
-本项目基于Spring Cloud 和Ant Design Pro实现前后端管理平台一站式脚手架，便于快速开发企业级应用。
+本项目基于Spring Cloud 和Ant Design Pro实现前后端管理平台一站式脚手架，便于快速开发企业级应用。我们的愿景是 基于Copy&Paste技术，实现面向Google&Baidu编程，让码农搬砖不累，做更好的良民。
+
 项目实现：
-1. admin-service基于Spring Cloud实现配置、注册、认证等通用组件
-2. Spring Security基于Oauth2认证并生成JWT Token，并自定义SSO统一登录页面
-3. 基于Ant Design Pro实现admin-ui, 前后端分离，使用Spring Security SSO登录页面登录，并基于JWT Token实现权限控制
+1. admin-service基于Spring Cloud Hoxton.RELEASE(Spring boot 2.2.2RELEASE)实现配置、注册、认证等通用服务，实现一键式生产级微服务框架
+2. Spring Security基于Oauth2认证并生成JWT Token，并自定义SSO统一登录页面，实现标准认证协议，保证登陆安全
+3. 基于Ant Design Pro实现admin-ui, 前后端分离，使用Spring Security SSO登录页面登录，并基于JWT Token实现权限控制。全栈工程师，前后端一站式服务。
+4. 所有服务均编写了DockerFile文件，可以立即实现K8s部署。实现了阿里云云效的release文件，建议通过阿里云云效实现持续集成持续交付部署，目前我们的环境云效会自动监听git代码提交,当发生代码提交时，自动编译并部署到测试的k8s容器集群环境
 
 # admin-service
 ## 描述
