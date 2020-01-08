@@ -1,4 +1,4 @@
-package com.awesome.config;
+package com.awesome.demo.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

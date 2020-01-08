@@ -1,4 +1,4 @@
-package com.awesome.config;
+package com.awesome.demo.config;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.LogoutSuccessHandler;

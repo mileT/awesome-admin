@@ -7,6 +7,9 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
+/**
+ * @author zhangpengcheng
+ */
 @SpringBootApplication
 @EnableResourceServer
 @EnableDiscoveryClient

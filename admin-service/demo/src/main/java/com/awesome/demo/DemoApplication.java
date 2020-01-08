@@ -1,4 +1,4 @@
-package com.awesome.hello;
+package com.awesome.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -20,7 +20,7 @@ import java.util.TimeZone;
 @EnableOAuth2Client
 @EnableFeignClients
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-public class HelloApplication {
+public class DemoApplication {
     @PostConstruct
     void setDefaultTimezone() {
         TimeZone.setDefault(TimeZone.getTimeZone("GMT+8"));
