@@ -12,5 +12,10 @@ ribbon:
 #请求连接的超时时间
   ConnectTimeout: 5000
 
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*Mapper.xml
 
+spring:
+  main:
+    allow-bean-definition-overriding: true
 

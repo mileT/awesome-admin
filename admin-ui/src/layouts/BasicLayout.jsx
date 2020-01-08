@@ -23,7 +23,7 @@ const menuDataRender = menuList =>
 
 const footerRender = (_, defaultDom) =>
   React.cloneElement(defaultDom, {
-    copyright: '2020 码农良民',
+    copyright: '2020 让码农搬砖不累,做更好的良民!',
   });
 
 const BasicLayout = props => {

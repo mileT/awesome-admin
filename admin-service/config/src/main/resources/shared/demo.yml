@@ -1,0 +1,59 @@
+security:
+  oauth2:
+    client:
+      clientId: app
+      clientSecret: testpassword
+      accessTokenUri: http://localhost:5000/oauth/oauth/token
+      grant-type: client_credentials
+      scope: all
+
+
+spring:
+  datasource:
+    db1:
+      jdbc-url: jdbc:mysql://db1?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username:
+      password:
+      driver-class-name: com.mysql.jdbc.Driver
+      initialSize: 50
+      minIdle: 50
+      maxActive: 300
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      testWhileIdle: true
+      test-on-borrow: true
+      testOnBorrow: true
+      validationQuery: SELECT 1
+
+    db2:
+      jdbc-url: jdbc:mysql://db2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username:
+      password:
+      driver-class-name: com.mysql.jdbc.Driver
+      initialSize: 50
+      minIdle: 50
+      maxActive: 300
+      maxWait: 60000
+      timeBetweenEvictionRunsMillis: 60000
+      testWhileIdle: true
+      test-on-borrow: true
+      testOnBorrow: true
+      validationQuery: SELECT 1
+
+    redis:
+        database: 0
+        host: redis_host
+        password:
+        port: 6379
+        timeout: 5000
+        pool:
+          max-idle: 500
+          min-idle: 50
+          max-active: 500
+          max-wait: 10000
+
+
+server:
+  servlet:
+    context-path: /demo
+  port: 8081

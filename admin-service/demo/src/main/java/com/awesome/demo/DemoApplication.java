@@ -7,13 +7,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.security.config.annotation.method.configuration.EnableGlobalMethodSecurity;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableOAuth2Client;
 
-import javax.annotation.PostConstruct;
-import java.util.TimeZone;
-
 /**
- * @author liwei
- * @version 1.0
- * @date 2019/12/28 01:34
+ * @author zhangpengcheng
  */
 @SpringBootApplication
 @EnableDiscoveryClient
@@ -21,11 +16,9 @@ import java.util.TimeZone;
 @EnableFeignClients
 @EnableGlobalMethodSecurity(prePostEnabled = true)
 public class DemoApplication {
-    @PostConstruct
-    void setDefaultTimezone() {
-        TimeZone.setDefault(TimeZone.getTimeZone("GMT+8"));
-    }
+
     public static void main(String[] args) {
-        SpringApplication.run(HelloApplication.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
+
 }

@@ -5,6 +5,9 @@ spring:
     config:
       uri: http://localhost:8888
       fail-fast: true
+      password: ${CONFIG_SERVICE_PASSWORD:testpassword}
       username: user
-      password: testpassword
+      profile: dev
 
+  main:
+    allow-bean-definition-overriding: true
