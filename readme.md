@@ -86,3 +86,9 @@ $ npm run build
 
 3. Cookie中JWT Token
 ![JWT Token](https://images.gitee.com/uploads/images/2020/0108/142112_b4feb450_804916.png "屏幕快照 2020-01-08 下午2.20.11.png")
+
+# 文档
+1. Spring Security认证基本原理 ![https://www.jianshu.com/p/f3a0fb302ef1](https://www.jianshu.com/p/f3a0fb302ef1)
+2. Spring Security OAuth2.0自定义登录页面 + JWT Token配置 ![https://www.jianshu.com/p/122dace5d570](https://www.jianshu.com/p/122dace5d570)
+3. Spring Secutity 添加过滤器实现自定义登录认证 ![https://www.jianshu.com/p/68885d0e1cd9](https://www.jianshu.com/p/68885d0e1cd9)
+4. Spring Security 自定义生成JWT Token API ![https://www.jianshu.com/p/afed86fb90bb](https://www.jianshu.com/p/afed86fb90bb)
