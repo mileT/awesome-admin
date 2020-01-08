@@ -92,5 +92,5 @@ $ npm run build
 
 1. Spring Security认证基本原理 https://www.jianshu.com/p/f3a0fb302ef1
 2. Spring Security OAuth2.0自定义登录页面 + JWT Token配置 https://www.jianshu.com/p/122dace5d570
-3. Spring Secutity 添加过滤器实现自定义登录认证 ttps://www.jianshu.com/p/68885d0e1cd9
+3. Spring Secutity 添加过滤器实现自定义登录认证 https://www.jianshu.com/p/68885d0e1cd9
 4. Spring Security 自定义生成JWT Token API https://www.jianshu.com/p/afed86fb90bb
