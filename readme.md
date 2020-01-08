@@ -84,3 +84,5 @@ $ npm run build
 2. 输入用户名和密码 admin/admin后,跳转到首页
 ![首页](https://images.gitee.com/uploads/images/2020/0108/141357_2b7b1df0_804916.png "屏幕快照 2020-01-08 上午11.53.15.png")
 
+3. Cookie中JWT Token
+![JWT Token](https://images.gitee.com/uploads/images/2020/0108/142112_b4feb450_804916.png "屏幕快照 2020-01-08 下午2.20.11.png")
