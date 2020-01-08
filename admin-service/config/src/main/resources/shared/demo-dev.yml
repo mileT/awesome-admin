@@ -12,9 +12,9 @@ security:
 spring:
   datasource:
     db1:
-      jdbc-url: jdbc:mysql://rm-uf6h5f480vusyxr9h.mysql.rds.aliyuncs.com:3306/crm?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-      username: zhangpengcheng
-      password: Zjtrust2017#
+      jdbc-url: jdbc:mysql://db1url:3306/crm?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username:
+      password:
       driver-class-name: com.mysql.jdbc.Driver
       initialSize: 50
       minIdle: 50
@@ -27,9 +27,9 @@ spring:
       validationQuery: SELECT 1
 
     db2:
-      jdbc-url: jdbc:mysql://rm-uf6h5f480vusyxr9h.mysql.rds.aliyuncs.com:3306/crm?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-      username: zhangpengcheng
-      password: Zjtrust2017#
+      jdbc-url: jdbc:mysql://db2url:3306/crm?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      username:
+      password:
       driver-class-name: com.mysql.jdbc.Driver
       initialSize: 50
       minIdle: 50
@@ -43,8 +43,8 @@ spring:
 
     redis:
       database: 0
-      host: r-uf6d0558sqbkjbp0lf.redis.rds.aliyuncs.com
-      password: Zjtrust2017#
+      host: redis
+      password:
       port: 6379
       timeout: 5000
       pool:

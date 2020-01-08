@@ -3,15 +3,16 @@ security:
     client:
       clientId: app
       clientSecret: testpassword
-      accessTokenUri: http://localhost:5000/oauth/oauth/token
+      accessTokenUri: http://localhost:5000/auth/oauth/token
       grant-type: client_credentials
       scope: all
-
+    resource:
+      userInfoUri: http://localhost:5000/auth/user
 
 spring:
   datasource:
     db1:
-      jdbc-url: jdbc:mysql://db1?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      jdbc-url: jdbc:mysql://db1url:3306/crm?useUnicode=true&characterEncoding=UTF-8&useSSL=false
       username:
       password:
       driver-class-name: com.mysql.jdbc.Driver
@@ -26,7 +27,7 @@ spring:
       validationQuery: SELECT 1
 
     db2:
-      jdbc-url: jdbc:mysql://db2?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+      jdbc-url: jdbc:mysql://db2url:3306/crm?useUnicode=true&characterEncoding=UTF-8&useSSL=false
       username:
       password:
       driver-class-name: com.mysql.jdbc.Driver
@@ -41,16 +42,16 @@ spring:
       validationQuery: SELECT 1
 
     redis:
-        database: 0
-        host: redis_host
-        password:
-        port: 6379
-        timeout: 5000
-        pool:
-          max-idle: 500
-          min-idle: 50
-          max-active: 500
-          max-wait: 10000
+      database: 0
+      host: redis
+      password:
+      port: 6379
+      timeout: 5000
+      pool:
+        max-idle: 500
+        min-idle: 50
+        max-active: 500
+        max-wait: 10000
 
 
 server:
