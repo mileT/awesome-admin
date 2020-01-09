@@ -26,7 +26,7 @@ public class ClientDetailsServiceImpl implements ClientDetailsService {
             credential.setGrantTypes("authorization_code,client_credentials,password,refresh_token,mini_app");
             credential.setAccessExpireTime(3600 * 24);
             credential.setRefreshExpireTime(3600 * 24 * 30);
-            credential.setRedirectUrl("http://localhost:3006,http://localhost:3006/auth,http://localhost:8000,http://localhost:8000/auth");
+            credential.setRedirectUrl("http://localhost:3006,http://localhost:3006/auth,http://localhost:8000,http://localhost:8000/auth,http://admin.awesome-coder.com/auth");
             credential.setScopes("all");
             return new AppCredentialDetail(credential);
         }
