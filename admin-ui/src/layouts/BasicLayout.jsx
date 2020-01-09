@@ -6,6 +6,7 @@
 import ProLayout, { SettingDrawer } from '@ant-design/pro-layout';
 import React, { useEffect } from 'react';
 import Link from 'umi/link';
+import { Icon } from 'antd';
 import { connect } from 'dva';
 import { formatMessage } from 'umi-plugin-react/locale';
 import Authorized from '@/utils/Authorized';
@@ -23,7 +24,21 @@ const menuDataRender = menuList =>
 
 const footerRender = (_, defaultDom) =>
   React.cloneElement(defaultDom, {
-    copyright: '2020 让码农搬砖不累,做更好的良民!',
+    links: [
+      {
+        key: 'GITEE',
+        title: <Icon type="github" />,
+        href: 'https://gitee.com/awesome-engineer/awesome-admin',
+        blankTarget: true,
+      },
+      {
+        key: 'ICP',
+        title: '苏ICP备20001621号',
+        href: 'http://www.beian.miit.gov.cn/',
+        blankTarget: true,
+      },
+  ],
+    copyright: '2020 让码农搬砖不累,做更好的良民.',
   });
 
 const BasicLayout = props => {
