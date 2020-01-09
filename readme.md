@@ -12,6 +12,11 @@ V1.0.0
 7. Config服务实现测试环境和生产环境配置文件隔离
 8. Registry服务支持多实例高可以用部署
 
+# 演示地址
+http://admin.awesome-coder.com
+用户名:admin
+密码:admin
+
 # admin-service
 ## 描述
 建立Spring Cloud常用微服务，包括配置服务、注册服务、认证服务，满足中小企业及个人基础框架开箱即用。支持采用阿里云云效服务和kubernetes容器服务实现生产级持续部署持续集成。
