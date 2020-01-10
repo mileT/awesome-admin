@@ -49,14 +49,14 @@ class LoginForm extends React.Component {
                           {getFieldDecorator('username', {
                               rules: [{ required: true, message: '请输入用户名!' }],
                           })(
-                              <Input name='username' prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="用户名" />
+                              <Input name='username' prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />} placeholder="admin" />
                           )}
                       </FormItem>
                       <FormItem>
                           {getFieldDecorator('password', {
                               rules: [{ required: true, message: 'Please input your Password!' }],
                           })(
-                              <Input name='password' prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="密码" />
+                              <Input name='password' prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />} type="password" placeholder="admin" />
                           )}
                       </FormItem>
                       <FormItem className="login-form-forgot"> 
