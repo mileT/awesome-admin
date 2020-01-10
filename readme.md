@@ -100,7 +100,6 @@ $ npm run build
 3. Cookie中JWT Token
 ![JWT Token](https://images.gitee.com/uploads/images/2020/0108/142112_b4feb450_804916.png "屏幕快照 2020-01-08 下午2.20.11.png")
 
-
 4. 移动端效果
 ![登陆](https://images.gitee.com/uploads/images/2020/0110/102023_a40ecfdf_804916.jpeg "1.jpg")
 ![个人设置](https://images.gitee.com/uploads/images/2020/0110/102046_046aa40c_804916.jpeg "2.jpg")
@@ -110,9 +109,7 @@ $ npm run build
 ![基础详情](https://images.gitee.com/uploads/images/2020/0110/102239_5a13857b_804916.jpeg "4.jpg")
 
 
-
 # 文档
-
 1. Spring Security认证基本原理 https://www.jianshu.com/p/f3a0fb302ef1
 2. Spring Security OAuth2.0自定义登录页面 + JWT Token配置 https://www.jianshu.com/p/122dace5d570
 3. Spring Secutity 添加过滤器实现自定义登录认证 https://www.jianshu.com/p/68885d0e1cd9
