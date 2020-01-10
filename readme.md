@@ -13,7 +13,7 @@ V1.0.0
 8. Registry服务支持多实例高可以用部署
 
 # 演示地址
-http://admin.awesome-coder.com
+https://admin.awesome-coder.com
 
 用户名:admin
 密码:admin
