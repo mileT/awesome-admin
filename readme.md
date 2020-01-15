@@ -1,3 +1,10 @@
+# 学习交流
+QQ群：930389350
+微信号：ruoxing_zpc，kyon000
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0115/112341_d43a1962_693977.png "屏幕截图.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0115/112358_096badeb_693977.png "屏幕截图.png")
+
 V1.0.0
 # 项目介绍
 本项目基于Spring Cloud 和Ant Design Pro实现前后端管理平台一站式脚手架，便于快速开发企业级应用。我们的愿景是 基于Copy&Paste技术，实现面向Google&Baidu编程，让码农搬砖不累，做更好的良民。
@@ -13,7 +20,7 @@ V1.0.0
 8. Registry服务支持多实例高可以用部署
 
 # 演示地址
-http://admin.awesome-coder.com
+https://admin.awesome-coder.com
 
 用户名:admin
 密码:admin
@@ -100,8 +107,34 @@ $ npm run build
 3. Cookie中JWT Token
 ![JWT Token](https://images.gitee.com/uploads/images/2020/0108/142112_b4feb450_804916.png "屏幕快照 2020-01-08 下午2.20.11.png")
 
-# 文档
+4. 移动端效果
 
+登陆
+
+![登陆](https://images.gitee.com/uploads/images/2020/0110/102023_a40ecfdf_804916.jpeg "1.jpg")
+
+个人设置
+
+![个人设置](https://images.gitee.com/uploads/images/2020/0110/102046_046aa40c_804916.jpeg "2.jpg")
+
+个人中心
+
+![个人中心](https://images.gitee.com/uploads/images/2020/0110/102104_612ecdd3_804916.jpeg "3.jpg")
+
+分析页
+
+![分析页](https://images.gitee.com/uploads/images/2020/0110/102148_c1fefa1b_804916.jpeg "7.jpg")
+
+高级表单
+
+![高级表单](https://images.gitee.com/uploads/images/2020/0110/102220_74bed4ef_804916.jpeg "5.jpg")
+
+基础详情
+
+![基础详情](https://images.gitee.com/uploads/images/2020/0110/102239_5a13857b_804916.jpeg "4.jpg")
+
+
+# 文档
 1. Spring Security认证基本原理 https://www.jianshu.com/p/f3a0fb302ef1
 2. Spring Security OAuth2.0自定义登录页面 + JWT Token配置 https://www.jianshu.com/p/122dace5d570
 3. Spring Secutity 添加过滤器实现自定义登录认证 https://www.jianshu.com/p/68885d0e1cd9
