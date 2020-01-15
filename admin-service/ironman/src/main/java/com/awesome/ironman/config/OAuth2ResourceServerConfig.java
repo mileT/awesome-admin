@@ -1,4 +1,4 @@
-package com.awesome.demo.config;
+package com.awesome.ironman.config;
 
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.awesome.demo.config;
+package com.awesome.ironman.config;
 
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;

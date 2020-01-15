@@ -1,4 +1,4 @@
-package com.awesome.demo.config;
+package com.awesome.ironman.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -11,7 +11,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.awesome</groupId>
-    <artifactId>demo</artifactId>
+    <artifactId>ironman</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>hello</name>

@@ -1,6 +1,6 @@
-package com.awesome.demo.client;
+package com.awesome.ironman.client;
 
-import com.awesome.demo.config.AuthFeignConfigInterceptor;
+import com.awesome.ironman.config.AuthFeignConfigInterceptor;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.oauth2.common.OAuth2AccessToken;

@@ -1,4 +1,4 @@
-package com.awesome.demo.controller;
+package com.awesome.ironman.controller;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/")
-public class DemoController {
+public class ManController {
 
     @ApiOperation(value = "获取用户实名信息")
     @RequestMapping(path = "/test", method = RequestMethod.GET)

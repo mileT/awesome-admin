@@ -1,4 +1,4 @@
-package com.awesome.demo.repository.db2;
+package com.awesome.ironman.repository.db2;
 
 /**
  * @author zhangpengcheng
