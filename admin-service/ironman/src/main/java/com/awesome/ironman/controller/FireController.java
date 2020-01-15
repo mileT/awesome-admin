@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/")
-public class ManController {
+public class FireController {
 
     @ApiOperation(value = "获取用户实名信息")
     @RequestMapping(path = "/test", method = RequestMethod.GET)
