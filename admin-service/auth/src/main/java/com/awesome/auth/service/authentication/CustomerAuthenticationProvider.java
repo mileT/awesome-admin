@@ -1,5 +1,7 @@
 package com.awesome.auth.service.authentication;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.Authentication;
@@ -17,12 +19,15 @@ import java.util.Map;
  */
 public class CustomerAuthenticationProvider implements AuthenticationProvider {
 
+    Logger logger = LoggerFactory.getLogger(CustomerAuthenticationProvider.class);
+
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
 
         if(authentication.getPrincipal() == null){
             throw  new BadCredentialsException("用户名为空");
         }
+
 
         CustomAuthenticationToken customAuthenticationToken =(CustomAuthenticationToken) authentication;
 
@@ -48,6 +53,8 @@ public class CustomerAuthenticationProvider implements AuthenticationProvider {
         Map<String, Object> details = new HashMap<>(1);
         details.put("name", customAuthenticationToken.getPrincipal());
         authenticationToken.setDetails(details);
+
+        logger.info("[auth::login_success] " + customAuthenticationToken.getPrincipal() + " login success");
 
         return authenticationToken;
     }
