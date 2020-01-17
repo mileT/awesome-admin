@@ -20,7 +20,7 @@
         <module>config</module>
         <module>registry</module>
         <module>auth</module>
-        <module>hello</module>
+        <module>ironman</module>
     </modules>
 
 </project>
