@@ -56,5 +56,5 @@ spring:
 
 server:
   servlet:
-    context-path: /demo
+    context-path: /ironman
   port: 8081
