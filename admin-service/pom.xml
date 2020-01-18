@@ -21,6 +21,7 @@
         <module>registry</module>
         <module>auth</module>
         <module>ironman</module>
+        <module>monitor</module>
     </modules>
 
 </project>

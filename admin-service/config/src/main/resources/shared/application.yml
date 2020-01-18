@@ -1,6 +1,9 @@
 eureka:
   instance:
     prefer-ip-address: true
+    metadata-map.management.context-path: ${server.servlet.context-path}/actuator
+#    health-check-url-path: ${server.servlet.context-path}/actuator/health
+#    status-page-url-path: ${server.servlet.context-path}/actuator/info
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
@@ -18,4 +21,5 @@ mybatis:
 spring:
   main:
     allow-bean-definition-overriding: true
+
 

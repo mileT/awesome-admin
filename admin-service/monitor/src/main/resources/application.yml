@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: admin-server
+server:
+  port: 8001
+eureka:
+  client:
+    registryFetchIntervalSeconds: 5
+    service-url:
+      defaultZone: ${EUREKA_SERVICE_URL:http://localhost:8761}/eureka/
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    health-check-url-path: /actuator/health
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+
+#spring.mail.host: smtp.163.com
+#spring.mail.username: miles02
+#spring.mail.password:
+#spring.boot.admin.notify.mail.to: 124746406@qq.com
+
