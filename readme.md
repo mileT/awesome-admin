@@ -109,9 +109,9 @@ $ npm run build
 ![JWT Token](https://images.gitee.com/uploads/images/2020/0108/142112_b4feb450_804916.png "屏幕快照 2020-01-08 下午2.20.11.png")
 
 4. 监控服务localhost:8001效果(如果启动了monitor服务，用户名和密码为admin/admin)
-![监控的服务](https://images.gitee.com/uploads/images/2020/0118/225521_8f73a24e_804916.png "屏幕快照 2020-01-18 下午10.50.04.png")
+![监控应用](https://images.gitee.com/uploads/images/2020/0118/230437_fac89fc3_804916.png "屏幕快照 2020-01-18 下午11.02.54.png")
 
-![服务监控详情](https://images.gitee.com/uploads/images/2020/0118/225606_fd400405_804916.png "屏幕快照 2020-01-18 下午10.49.33.png")
+![应用详情](https://images.gitee.com/uploads/images/2020/0118/230450_e3cdef42_804916.png "屏幕快照 2020-01-18 下午11.03.26.png")
 
 5. 移动端效果
 
