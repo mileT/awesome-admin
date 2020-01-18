@@ -1,6 +1,6 @@
 spring:
   application:
-    name: admin-server
+    name: monitor
   security:
     user:
       name: admin
