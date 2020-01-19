@@ -114,31 +114,9 @@ $ npm run build
 ![应用详情](https://images.gitee.com/uploads/images/2020/0118/230450_e3cdef42_804916.png "屏幕快照 2020-01-18 下午11.03.26.png")
 
 5. 移动端效果
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0119/142404_045dc6b0_804916.jpeg "1.jpeg")
 
-登陆
-
-![登陆](https://images.gitee.com/uploads/images/2020/0110/102023_a40ecfdf_804916.jpeg "1.jpg")
-
-个人设置
-
-![个人设置](https://images.gitee.com/uploads/images/2020/0110/102046_046aa40c_804916.jpeg "2.jpg")
-
-个人中心
-
-![个人中心](https://images.gitee.com/uploads/images/2020/0110/102104_612ecdd3_804916.jpeg "3.jpg")
-
-分析页
-
-![分析页](https://images.gitee.com/uploads/images/2020/0110/102148_c1fefa1b_804916.jpeg "7.jpg")
-
-高级表单
-
-![高级表单](https://images.gitee.com/uploads/images/2020/0110/102220_74bed4ef_804916.jpeg "5.jpg")
-
-基础详情
-
-![基础详情](https://images.gitee.com/uploads/images/2020/0110/102239_5a13857b_804916.jpeg "4.jpg")
-
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0119/142414_38f45eb7_804916.jpeg "4.jpeg")
 
 # 文档
 1. Spring Security认证基本原理 https://www.jianshu.com/p/f3a0fb302ef1
