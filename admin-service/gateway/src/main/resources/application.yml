@@ -1,0 +1,56 @@
+eureka:
+  instance:
+    # 每隔5s发送一次心跳
+    lease-renewal-interval-in-seconds: 5
+    # 告知服务端10秒还未收到心跳的话，就将该服务移除列表
+    lease-expiration-duration-in-seconds: 10
+    # 健康检查路径
+    health-check-url-path: /actuator/health
+  client:
+    registry-fetch-interval-seconds: 5 # 默认为30秒
+    serviceUrl:
+      #eureka注册中心地址
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  servlet:
+    context-path: /gateway
+  #项目端口号
+  port: 5010
+  tomcat:
+    max-connections: 200
+    max-threads: 300
+    min-spare-threads: 0
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    #服务名称,随便写
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          #开启从注册中心动态创建路由的功能
+          enabled: true
+          #使用小写服务名，默认是大写
+          lower-case-service-id: true
+      routes:
+        # 路由的ID
+        - id: path_route
+          # uri 代表路由的目标地址。注意：uri地址后面不要加 " / "
+          # 消息必须使用http进行转发，lb代表从注册中心获取服务
+          uri: lb://gateway-center # 可以直接跳转到具体的地址，如果要跳转到其他服务，则填写lb://<服务id>
+          predicates:
+            - Path=/gateway/** # 路由规则
+          filters:
+            - StripPrefix=1 # 不填则无法路由到其他服务
+            - AddRequestHeader=X-Request-Foo, Bar
+            - name: Hystrix # 添加熔断
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/fallback # 熔断跳转地址
+hystrix:
+  metrics:
+    enabled: true
+    polling-interval-ms: 3000
