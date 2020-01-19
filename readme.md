@@ -114,7 +114,9 @@ $ npm run build
 ![应用详情](https://images.gitee.com/uploads/images/2020/0118/230450_e3cdef42_804916.png "屏幕快照 2020-01-18 下午11.03.26.png")
 
 5. 移动端效果
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0119/142404_045dc6b0_804916.jpeg "1.jpeg")
+
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0119/142414_38f45eb7_804916.jpeg "4.jpeg")
 
