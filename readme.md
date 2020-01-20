@@ -15,10 +15,12 @@ V1.0.0
 2. Spring Security基于Oauth2认证并生成JWT Token，并自定义SSO统一登录页面，实现标准认证协议，保证登陆安全
 3. 基于Ant Design Pro实现admin-ui, 前后端分离，使用Spring Security SSO登录页面登录，并基于JWT Token实现权限控制。全栈工程师，前后端一站式服务。
 4. 所有服务均编写了DockerFile文件，可以立即实现K8s部署。实现了阿里云云效的release文件，建议通过阿里云云效实现持续集成持续交付部署，目前我们的环境云效会自动监听git代码提交,当发生代码提交时，自动编译并部署到测试的k8s容器集群环境
-5. Demo服务中实现多数据源配置，redis配置，并通过注解实现基于JWT Token中角色控制API访问权限
+5. Ironman服务中实现多数据源配置，redis配置，Feign, ribbon, 并通过注解实现基于JWT Token中角色控制API访问权限
 6. 增加Swagger配置，实现自动生成api文档
 7. Config服务实现测试环境和生产环境配置文件隔离
-8. Registry服务支持多实例高可以用部署
+8. Registry服务支持多实例高可用部署
+9. Monitor服务实现Spring Boot Admin 监控服务
+10. Gateway服务实现网关服务。生产环境如果使用K8s部署，因为有内部DNS和路由，不需要部署
 
 # 演示地址
 https://admin.awesome-coder.com
