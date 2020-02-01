@@ -1,7 +1,7 @@
 # 学习交流
 QQ群：930389350
 
-微信号：ruoxing_zpc，kyon000
+微信群：ruoxing_zpc，kyon000
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0115/112341_d43a1962_693977.png "屏幕截图.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0115/112358_096badeb_693977.png "屏幕截图.png")
